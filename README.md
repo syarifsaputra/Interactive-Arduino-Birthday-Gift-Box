@@ -12,9 +12,11 @@ Built with an **Arduino Nano** and programmed via the **PlatformIO (C++)** envir
 
 ## 📸 Hardware Showcase
 ![Standby Screen](foto-layar-awal.jpg)
+
 *The LCD displaying the standby prompt.*
 
 ![Running Text and Melody](foto-layar-berjalan.jpg)
+
 *The system executing the melody and scrolling text sequence.*
 
 ## 🛠️ Components Used
