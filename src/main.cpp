@@ -21,7 +21,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define F5 698
 #define G5 784
 
-String lirikBawah = "HBD Bub,semoga sehat selalu, i loved you, miss you ";
+String lirikBawah = "HBD ,(masukan ucapan untuk bergulir di bawah pada lcd 16x2) ";
 int posisiScroll = 0;
 
 void scrollBarisBawah() {
@@ -84,7 +84,7 @@ void loop() {
 
       lcd.clear();
       lcd.setCursor(0, 0);
-      lcd.print("HBD Shayla Luna");
+      lcd.print("Happybrithday");
 
       happyBirthday();
 
@@ -111,7 +111,7 @@ void loop() {
       lcd.setCursor(0, 0);
       lcd.print("Tekan tombolnya");
       lcd.setCursor(0, 1);
-      lcd.print("ya cantik");
+      lcd.print("ya ");
 
       Serial.println("--- Menunggu tombol dilepas ---");
       while (digitalRead(BUTTON) == LOW) {
