@@ -11,10 +11,10 @@ Built with an **Arduino Nano** and programmed via the **PlatformIO (C++)** envir
 * **Portable Power Ready:** Integrates an MT3608 DC-DC Step-Up Converter for 5V voltage stabilization, making it ready to be powered by a portable 3.7V Li-Po battery system.
 
 ## 📸 Hardware Showcase
-![Standby Screen](./foto-layar-awal)
+![Standby Screen](foto-layar-awal.jpg)
 *The LCD displaying the standby prompt.*
 
-![Running Text and Melody](./Contoh%20kado%20ulang%20Tahun%20Ucapan)
+![Running Text and Melody](Contoh%kado%ulang%Tahun%Ucapan.jpg)
 *The system executing the melody and scrolling text sequence.*
 
 ## 🛠️ Components Used
